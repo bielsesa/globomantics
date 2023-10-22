@@ -1,6 +1,6 @@
 # A Practical Start with React 17
 
-This project is being made for the course **A Practical Start with React 17** from PluralSight.
+This project was made for the course **A Practical Start with React 17** from PluralSight.
 
 The objective of taking this course is to further develop my skills in Frontend, in this case with React.
 
