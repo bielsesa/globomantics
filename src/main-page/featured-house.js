@@ -1,7 +1,7 @@
 import House from "../house";
 
 const FeaturedHouse = ({ house }) => {
-  if (house) {
+  if (house)
     return (
       <div>
         <div className="row featuredHouse">
@@ -10,8 +10,7 @@ const FeaturedHouse = ({ house }) => {
         <House house={house} />
       </div>
     );
-  }
-  return <div>No featured house ath this time</div>;
+  return <div>No featured house at this time</div>;
 };
 
 export default FeaturedHouse;
