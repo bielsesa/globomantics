@@ -1,6 +1,8 @@
 import { useHistory } from "react-router-dom";
 
 const HouseFilter = ({ allHouses }) => {
+  const history = useHistory();
+
   const countries = allHouses
     ? Array.from(new Set(allHouses.map((h) => h.country)))
     : [];
